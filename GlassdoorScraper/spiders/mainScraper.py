@@ -6,7 +6,7 @@ from GlassdoorScraper.items import GlassdoorscraperItem
 class MainscraperSpider(scrapy.Spider):
     name = 'mainScraper'
     allowed_domains = ['www.glassdoor.com']
-    start_urls = ['https://www.glassdoor.com/Reviews/Google-Reviews-E9079.htm']
+    start_urls = ['https://www.glassdoor.com/Reviews/Dialexa-Reviews-E791734.htm']
 
 
     def parse(self, response):
@@ -27,7 +27,7 @@ class MainscraperSpider(scrapy.Spider):
 
             item['date'] = resource.xpath('descendant::time[@class = "date subtle small"]/text()').extract_first()
             item['OverallRating'] = resource.xpath("descendant::span[@class = 'value-title']/@title").extract_first()
-            item['Title'] = resource.xpath('descendant::a[@class = "reviewLink"]/span/text()').extract_first()
+            item['Title'] = resource.xpath('descendant::a[@class = "reviewLink"]/text()').extract_first()
 
             item['Worklife'] = self.subratingsScraper(formType = "Work/Life Balance", resource = resource)
             item['CareerOps'] = self.subratingsScraper(formType = "Career Opportunities", resource = resource)
