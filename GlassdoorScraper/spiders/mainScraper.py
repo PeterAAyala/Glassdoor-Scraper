@@ -6,7 +6,7 @@ from GlassdoorScraper.items import GlassdoorscraperItem
 class MainscraperSpider(scrapy.Spider):
     name = 'mainScraper'
     allowed_domains = ['www.glassdoor.com']
-    start_urls = ['https://www.glassdoor.com/Reviews/Dialexa-Reviews-E791734.htm']
+    start_urls = ['https://www.glassdoor.com/Reviews/Google-Reviews-E9079.htm']
 
 
     def parse(self, response):
