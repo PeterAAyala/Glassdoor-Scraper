@@ -4,7 +4,7 @@ This scraper is provided as a public service because Glassdoor does not offer an
 
 ## Introduction 
 
-This script will scape all employee reviews for a company on Glassdoor. This was my first script built using Scrapy, so feel free to let me know about any potential improvements. 
+This script will scape all employee reviews for a company on Glassdoor and output into a csv file. This was my first script built using Scrapy, so feel free to let me know about any potential improvements. 
 
 ## Installation and Usage 
 
