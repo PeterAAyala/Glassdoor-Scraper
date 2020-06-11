@@ -1,6 +1,6 @@
 ## Disclaimer
 
-This scraper is provided as a public service because Glassdoor does not offer an official API for reviews. Glassdoor Terms of use (available [here](https://www.glassdoor.com/about/terms.htm)) lists automated tools, including scraping, as against the terms of use. I cannot guarantee that your Glassdoor account will not be banned by using this. Lastly, I will remove this repository if I am contacted to do so by Glassdoor.
+This scraper is provided as a public service because Glassdoor does not offer an official API for reviews. I cannot guarantee that your Glassdoor account will not be banned by using this. Lastly, I will remove this repository if I am contacted to do so by Glassdoor.
 
 ## Introduction 
 
